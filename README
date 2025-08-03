@@ -28,5 +28,5 @@ A Discord.js v14 bot that automatically bans suspicious users based on username 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/anti-spam-bot.git
-cd anti-spam-bot
+git clone https://github.com/sreemanrp/Auto-Banner.git
+cd auto-banner
