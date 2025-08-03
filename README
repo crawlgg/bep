@@ -1,10 +1,10 @@
-# Anti-Spam Discord Bot
+#Anti-Spam Discord Bot
 
 A Discord.js v14 bot that automatically bans suspicious users based on username patterns and account age, and logs the actions to a channel.
 
 ---
 
-## 🚀 Features
+##🚀 Features
 
 - Auto-ban users with suspicious usernames (e.g. `token`, `john f`, `motion`, `tokens.rip`)
 - Auto-ban accounts less than 1 minute old
@@ -14,7 +14,7 @@ A Discord.js v14 bot that automatically bans suspicious users based on username 
 
 ---
 
-## 🧰 Requirements
+##🧰 Requirements
 
 - Node.js v18+
 - Visual Studio Code
@@ -23,9 +23,9 @@ A Discord.js v14 bot that automatically bans suspicious users based on username 
 
 ---
 
-## ⚙️ Setup Instructions
+##⚙️ Setup Instructions
 
-### 1. Clone the Repository
+###1. Clone the Repository
 
 ```bash
 git clone https://github.com/sreemanrp/Auto-Banner.git
