@@ -1,8 +1,9 @@
 const { Client, GatewayIntentBits, Partials } = require('discord.js');
 const ms = require('ms');
+require('dotenv').config();
 
-const DISCORD_TOKEN = 'YOUR_BOT_TOKEN_HERE';
-const LOG_CHANNEL_ID = 'YOUR_LOG_CHANNEL_ID_HERE';
+const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
+const LOGS_CHANNEL = process.env.LOGS_CHANNEL;
 
 const client = new Client({
   intents: [
@@ -43,7 +44,7 @@ client.on('guildMemberAdd', async member => {
 
       const logMessage = `Banned: ${member.user.tag} (${member.user.id})\nReason: ${reason}`;
 
-      const logChannel = member.guild.channels.cache.get(LOG_CHANNEL_ID);
+      const logChannel = member.guild.channels.cache.get(LOGS_CHANNEL);
       if (logChannel && logChannel.isTextBased()) {
         await logChannel.send(logMessage);
       }
