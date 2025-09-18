@@ -17,5 +17,6 @@ A Discord.js v14 bot that automatically bans suspicious users based on username 
 🧰 Requirements
 
 - Node.js v18+
+- Visual Studio Code
 - Discord bot token
 - Log channel ID from your server
